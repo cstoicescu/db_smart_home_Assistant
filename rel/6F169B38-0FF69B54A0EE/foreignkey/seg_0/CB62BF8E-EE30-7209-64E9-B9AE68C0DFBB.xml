@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB62BF8E-EE30-7209-64E9-B9AE68C0DFBB" containerWithKeyObject="18982200-8A05-F4CC-2C26-A51C571622CA" localFKIndex="30146B7C-E39A-1B40-09B3-B6C7D42B63BD" name="SYS_C0015595">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>C##CATA</sourceObjSchema>
+<sourceObjName>SYS_C0015595</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<referredTableLongName>C##CATA.USERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DEAC353-B6B3-B221-C0C1-9F30E2250DA2</referredTableID>
+<keyObject>145D72B9-DE48-2A7D-6C59-3F468CE01497</keyObject>
+<referredKeyID>145D72B9-DE48-2A7D-6C59-3F468CE01497</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>USER_NAME</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

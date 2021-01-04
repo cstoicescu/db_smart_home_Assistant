@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9ED4CD3-B111-D4F5-374E-CE14BE1BDF37" schemaObject="D21133A6-31DA-A005-6BC1-7DB1A558DAF5" name="ALERTS">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>C##CATA</sourceObjSchema>
+<sourceObjName>ALERTS</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:50 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ALERT_TYPE" id="B073E2A1-C349-15B2-490A-7C23080A888F">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ALERTS</sourceObjSchema>
+<sourceObjName>ALERT_TYPE</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALERT_TEXT" id="7E923721-3777-7348-59AA-E75F161F2B4F">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ALERTS</sourceObjSchema>
+<sourceObjName>ALERT_TEXT</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALERT_SOURCE" id="FE106B28-76D5-1451-D06A-7EFBF625CFD6">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ALERTS</sourceObjSchema>
+<sourceObjName>ALERT_SOURCE</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALERT_DESTINATION" id="250478A0-A72F-B29F-8FB5-294023B5DBFA">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ALERTS</sourceObjSchema>
+<sourceObjName>ALERT_DESTINATION</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALERT_TIME" id="2579660D-A73E-8F3D-182D-938721D89ED6">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ALERTS</sourceObjSchema>
+<sourceObjName>ALERT_TIME</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_USER_NAME" id="A54F8B4F-F639-998A-7A9D-C8FC47136E09">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ALERTS</sourceObjSchema>
+<sourceObjName>FK_USER_NAME</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="550D356B-368C-9331-A920-9DA60FACDBFB" referredColumn="F687A5A9-978E-7BC8-1198-12B686EEE3D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="478931E9-0299-4ED2-32A4-BADC12A85083" name="SYS_C0015609">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A54F8B4F-F639-998A-7A9D-C8FC47136E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

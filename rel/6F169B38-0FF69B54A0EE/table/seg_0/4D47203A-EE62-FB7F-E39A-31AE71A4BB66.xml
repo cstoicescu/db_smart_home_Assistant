@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D47203A-EE62-FB7F-E39A-31AE71A4BB66" schemaObject="D21133A6-31DA-A005-6BC1-7DB1A558DAF5" name="ENVIRONMENTALDATA">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>C##CATA</sourceObjSchema>
+<sourceObjName>ENVIRONMENTALDATA</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TYPE_OF_MEASUREMENT" id="3B7E168F-578D-9908-D8D5-357F787E0707">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ENVIRONMENTALDATA</sourceObjSchema>
+<sourceObjName>TYPE_OF_MEASUREMENT</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<defaultValue>&apos;HearthRate&apos;</defaultValue>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEASUREMENT_VALUE" id="47EBFC9E-5316-5AB0-9E32-3D7D08ACD3D4">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ENVIRONMENTALDATA</sourceObjSchema>
+<sourceObjName>MEASUREMENT_VALUE</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_OF_MEASUREMENT" id="80FB119A-399B-9C23-802F-117C36D9F69E">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ENVIRONMENTALDATA</sourceObjSchema>
+<sourceObjName>UNIT_OF_MEASUREMENT</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<defaultValue>&apos;BPM&apos;</defaultValue>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION" id="4BC22666-4020-AF11-3E1B-413B4E71F962">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ENVIRONMENTALDATA</sourceObjSchema>
+<sourceObjName>LOCATION</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXCEEDED_NORMAL_VALUE" id="D91158C8-4FA3-575B-3694-A4FFD0200CAC">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ENVIRONMENTALDATA</sourceObjSchema>
+<sourceObjName>EXCEEDED_NORMAL_VALUE</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEASUREMENT_SOURCE" id="7E43535F-FE43-38B8-C01A-22A0D025FF36">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ENVIRONMENTALDATA</sourceObjSchema>
+<sourceObjName>MEASUREMENT_SOURCE</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEASUREMENT_TIME" id="A0047DA6-9BCC-2F39-1A05-6D3B2A515220">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ENVIRONMENTALDATA</sourceObjSchema>
+<sourceObjName>MEASUREMENT_TIME</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_USER_NAME" id="E836BEDD-E0BA-9176-290C-E84FFAF90C9A">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>ENVIRONMENTALDATA</sourceObjSchema>
+<sourceObjName>FK_USER_NAME</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="074453B8-1E4B-C009-B790-CC1C8209B6E2" referredColumn="F687A5A9-978E-7BC8-1198-12B686EEE3D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F9D0543-FA66-D964-961B-279E5C3E0A3C" name="SYS_C0015602">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:08 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E836BEDD-E0BA-9176-290C-E84FFAF90C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

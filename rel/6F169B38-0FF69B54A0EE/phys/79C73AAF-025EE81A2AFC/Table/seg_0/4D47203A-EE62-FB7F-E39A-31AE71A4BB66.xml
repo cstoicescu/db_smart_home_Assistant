@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ENVIRONMENTALDATA" directorySegmentName="seg_0" id="4D47203A-EE62-FB7F-E39A-31AE71A4BB66">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<schemaObject>D21133A6-31DA-A005-6BC1-7DB1A558DAF5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6CE14535-C795-274B-EAC5-CF41610E6A37</segment>
+<tableSpace>E71C31CF-5270-DF74-EDBB-672770F3DC5A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TYPE_OF_MEASUREMENT" id="3B7E168F-578D-9908-D8D5-357F787E0707">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<defaultValue>&apos;HearthRate&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MEASUREMENT_VALUE" id="47EBFC9E-5316-5AB0-9E32-3D7D08ACD3D4">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION" id="4BC22666-4020-AF11-3E1B-413B4E71F962">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEASUREMENT_SOURCE" id="7E43535F-FE43-38B8-C01A-22A0D025FF36">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNIT_OF_MEASUREMENT" id="80FB119A-399B-9C23-802F-117C36D9F69E">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<defaultValue>&apos;BPM&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MEASUREMENT_TIME" id="A0047DA6-9BCC-2F39-1A05-6D3B2A515220">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXCEEDED_NORMAL_VALUE" id="D91158C8-4FA3-575B-3694-A4FFD0200CAC">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FK_USER_NAME" id="E836BEDD-E0BA-9176-290C-E84FFAF90C9A">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:07 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0015602" id="1F9D0543-FA66-D964-961B-279E5C3E0A3C">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:08 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

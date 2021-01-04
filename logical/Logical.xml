@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="78503A0A-E56F-16C4-6B7C-BA99098A743B" mainViewID="9C8585DA-14AB-7873-75E3-48D90336C2F2">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:04:44 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

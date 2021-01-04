@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EB159A1-A2D7-91B4-455C-F902CB607C2F" schemaObject="D21133A6-31DA-A005-6BC1-7DB1A558DAF5" name="LOCATIONS">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>C##CATA</sourceObjSchema>
+<sourceObjName>LOCATIONS</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:58 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCATION" id="D7F16D49-061E-FEAE-E3B5-EE2732F66AF4">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>LOCATION</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:58 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_TIME" id="805AF83D-E993-C405-29A4-F4D36E46E6EE">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>START_TIME</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:58 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_TIME" id="1CFA6820-0619-859B-B68E-FDF089FE4669">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>END_TIME</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:58 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_USER_NAME" id="584808C6-544D-9AFC-7532-6334A19B2F5D">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>FK_USER_NAME</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:58 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80A9586C-2C32-1FA2-96FE-8624ECA9684A" referredColumn="F687A5A9-978E-7BC8-1198-12B686EEE3D4"/>
+</associations>
+</Column>
+<Column name="FK_DEVICE_ID" id="80688F9F-27F1-7325-24DF-96890A2A0ACC">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>FK_DEVICE_ID</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:59 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46091545-F9A6-1A35-E57F-56EBD62F38E7" referredColumn="BA8192AE-B6FB-AFC8-A0CF-9C664E0F1CD9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43D6BEA5-D72A-B415-6174-5611573A3AD6" name="SYS_C0015588">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:59 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="584808C6-544D-9AFC-7532-6334A19B2F5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A639568F-0893-1EB1-C2CF-828F4208D954" name="SYS_C0015589">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:59 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80688F9F-27F1-7325-24DF-96890A2A0ACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

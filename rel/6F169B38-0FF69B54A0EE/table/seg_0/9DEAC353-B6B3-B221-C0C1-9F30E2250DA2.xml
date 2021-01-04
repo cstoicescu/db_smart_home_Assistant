@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DEAC353-B6B3-B221-C0C1-9F30E2250DA2" schemaObject="D21133A6-31DA-A005-6BC1-7DB1A558DAF5" name="USERS">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>C##CATA</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:12 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="A0B39FB8-E53C-6161-D352-EC5BB32D17AC">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:12 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="USER_NAME" id="F687A5A9-978E-7BC8-1198-12B686EEE3D4">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>USER_NAME</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:12 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="198BC114-652C-61FF-BFD4-72221EA14455">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:12 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="78B3C274-0053-9A4D-EDD4-E6EFC63C934B">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:12 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGE" id="7487FBA7-0360-FAE2-0B50-352EEEE059B0">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>AGE</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:12 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="145D72B9-DE48-2A7D-6C59-3F468CE01497" schemaObject="D21133A6-31DA-A005-6BC1-7DB1A558DAF5" name="USERS_PK">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>C##CATA</sourceObjSchema>
+<sourceObjName>SYS_C0015570</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:06:12 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F687A5A9-978E-7BC8-1198-12B686EEE3D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

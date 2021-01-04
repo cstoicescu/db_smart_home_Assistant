@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACTIVITIES" directorySegmentName="seg_0" id="18982200-8A05-F4CC-2C26-A51C571622CA">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:50 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<schemaObject>D21133A6-31DA-A005-6BC1-7DB1A558DAF5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6CE14535-C795-274B-EAC5-CF41610E6A37</segment>
+<tableSpace>E71C31CF-5270-DF74-EDBB-672770F3DC5A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="START_TIME" id="15A04219-B2AC-8F69-8B64-AE685A9E70A3">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_TIME" id="35913FA3-2502-0E4C-CE9B-853AB1B618E6">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FK_USER_NAME" id="7E7F7E6C-A195-AF53-0921-61D3255A8F35">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVITY_TYPE" id="8520BCD2-76C4-5C91-9AAC-6B1C375ADB68">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVITY" id="B65DA6BA-BC08-5B90-8D73-53571A4F02F9">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:51 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0015595" id="30146B7C-E39A-1B40-09B3-B6C7D42B63BD">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

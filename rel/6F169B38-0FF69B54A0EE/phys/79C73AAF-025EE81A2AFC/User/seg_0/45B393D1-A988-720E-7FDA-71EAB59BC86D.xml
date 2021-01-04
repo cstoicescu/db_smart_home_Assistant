@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##CATA" directorySegmentName="seg_0" id="45B393D1-A988-720E-7FDA-71EAB59BC86D">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjName>C##CATA</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:49 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<schemaObject>D21133A6-31DA-A005-6BC1-7DB1A558DAF5</schemaObject>
+<defTableSpace>E71C31CF-5270-DF74-EDBB-672770F3DC5A</defTableSpace>
+<privileges>UNLIMITED TABLESPACE</privileges>
+</UserOraclev10g>

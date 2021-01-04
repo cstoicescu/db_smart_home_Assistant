@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DOCTORS" directorySegmentName="seg_0" id="F342EC0D-58A0-6CC8-418A-CC81BA47285A">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:12:44 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<schemaObject>D21133A6-31DA-A005-6BC1-7DB1A558DAF5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6CE14535-C795-274B-EAC5-CF41610E6A37</segment>
+<tableSpace>E71C31CF-5270-DF74-EDBB-672770F3DC5A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DOCTOR_NAME" id="07E3D40D-1889-A5FA-3703-245086A8E9F5">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:12:44 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FK_USER_NAME" id="82DF6E24-4774-158A-541A-7FBEF599B02F">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:12:44 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0015755" id="4DDF0724-33CC-D0A7-ACA6-BB2BF728F858">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:12:44 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="DOCTORS_FK_USER_NAME_UN" id="17487158-CA3A-3BF5-46F2-6539E1A875B8">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:12:44 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<schemaObject>D21133A6-31DA-A005-6BC1-7DB1A558DAF5</schemaObject>
+<segment>8EC5890F-8508-FAEA-7CF0-22D73304393B</segment>
+<tableSpace>E71C31CF-5270-DF74-EDBB-672770F3DC5A</tableSpace>
+<indexSegment>8EC5890F-8508-FAEA-7CF0-22D73304393B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

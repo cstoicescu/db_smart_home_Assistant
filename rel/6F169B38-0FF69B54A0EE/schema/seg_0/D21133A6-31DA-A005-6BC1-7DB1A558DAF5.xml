@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="C##CATA" directorySegmentName="seg_0" id="D21133A6-31DA-A005-6BC1-7DB1A558DAF5">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:50 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+</SchemaObject>

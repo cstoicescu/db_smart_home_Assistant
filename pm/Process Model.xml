@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3FCFB2E9-ADF6-C5A3-C9AD-B2B94A7C014D">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:04:45 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

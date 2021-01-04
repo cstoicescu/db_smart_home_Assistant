@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C930FAE-4CF3-DB70-EBEC-71562C3FE435" schemaObject="D21133A6-31DA-A005-6BC1-7DB1A558DAF5" name="DEVICES">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>C##CATA</sourceObjSchema>
+<sourceObjName>DEVICES</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:07:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEVICE_ID" id="BA8192AE-B6FB-AFC8-A0CF-9C664E0F1CD9">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>DEVICES</sourceObjSchema>
+<sourceObjName>DEVICE_ID</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:07:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="MAC_DEVICE" id="5BE9974E-C2C5-287A-4038-AFC8D5872FE4">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>DEVICES</sourceObjSchema>
+<sourceObjName>MAC_DEVICE</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:07:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVICE_TYPE" id="24E78604-3BFC-F6C1-AFCB-C704E2FE4116">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>DEVICES</sourceObjSchema>
+<sourceObjName>DEVICE_TYPE</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:07:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_USER_NAME" id="0491F92C-88B0-9A44-C971-F1466329F57B">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>DEVICES</sourceObjSchema>
+<sourceObjName>FK_USER_NAME</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:07:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04B79578-8C81-EEE6-C687-DD9DD3BC8EAC" referredColumn="F687A5A9-978E-7BC8-1198-12B686EEE3D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7F521A8-2565-83AB-6F69-F6FB34CB143E" schemaObject="D21133A6-31DA-A005-6BC1-7DB1A558DAF5" name="DEVICES_PK">
+<sourceConnName>DbaHomework</sourceConnName>
+<sourceObjSchema>C##CATA</sourceObjSchema>
+<sourceObjName>SYS_C0015581</sourceObjName>
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:07:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA8192AE-B6FB-AFC8-A0CF-9C664E0F1CD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="134ADCE9-D84D-88CD-4362-85DDDFAA891C" name="SYS_C0015582">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:07:55 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0491F92C-88B0-9A44-C971-F1466329F57B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

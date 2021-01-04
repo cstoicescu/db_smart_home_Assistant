@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="6F169B38-CA27-AC9B-6E8D-0FF69B54A0EE" mainViewID="CD0BEA2D-F099-D30F-E002-A3A7D03787CB">
+<createdBy>Catalin</createdBy>
+<createdTime>2020-12-02 10:05:20 UTC</createdTime>
+<ownerDesignName>db_smart_home</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>DbaHomework</connName>
+<connUser>C##CATA</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>
